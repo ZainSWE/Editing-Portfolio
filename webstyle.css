@@ -79,7 +79,7 @@ body {
   top: 85%;
   left: 20%;
   max-width: 450px; /* Adjust to desired width */
-    text-align: left; /* Adjust alignment if needed */
+  text-align: left; /* Adjust alignment if needed */
 }
 
 .FAQ a {
@@ -87,6 +87,14 @@ body {
   color: #0066CC;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.CINEMA {
+  position: absolute;
+  color: white;
+  top: 85%;
+  left: 49%;
+  text-align: left;
 }
 
 footer {
@@ -124,7 +132,7 @@ h1 {
   top: 45%;
   left: 75%;
   transform: translateX(-50%);
-  color: black;
+  color: white;
   width: 500px;
   height: 500px;
   padding: 10px;
@@ -152,10 +160,10 @@ h1 {
 
 .intro {
   position: absolute;
-  top: -200%;
+  top: -165%;
   left: -15%;
   width: 130%;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 700;
 }
 
@@ -165,7 +173,7 @@ h1 {
   font-size: 20px;
   width: 30%;
   left: 40%;
-  top: 60%;
+  top: 62%;
   transform: translateX(-50%);
 }
 
@@ -188,14 +196,22 @@ h1 {
   height: 300px;
 }
 
+.ac {
+  position: absolute;
+  border-radius: 25px;
+  top: 105%;
+  left: 48%;
+  height: 300px;
+}
+
 .glass {
   position: absolute;
   top: 40%;
   width: 60%;
   height: 400px;
-  border-radius: 80px;
+  border-radius: 50px;
   transform: translateX(31%);
-  background-color: rgba(0, 0, 0, 0.246);
+  background-color: rgba(0, 0, 0, 0.408);
 }
 
 .glass2 {
@@ -203,7 +219,27 @@ h1 {
   top: 88%;
   width: 26%;
   height: 55%;
-  border-radius: 70px;
+  border-radius: 50px;
   transform: translateX(70%);
-  background-color: rgba(0, 0, 0, 0.246);
+  background-color: rgba(0, 0, 0, 0.408);
+}
+
+.glass3 {
+  position: absolute;
+  top: 88%;
+  width: 32%;
+  height: 55%;
+  border-radius: 50px;
+  transform: translateX(146%);
+  background-color: rgba(0, 0, 0, 0.408);
+}
+
+.contentGlass {
+  position: absolute;
+  top: 45%;
+  width: 32%;
+  height: 55%;
+  border-radius: 50px;
+  transform: translateX(182.5%);
+  background-color: rgba(0, 0, 0, 0.408);
 }
